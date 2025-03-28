@@ -1,1 +1,31 @@
-Hello World
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les jardins de la Preugne</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            overflow: hidden;
+        }
+        img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover; /* Remplit l'écran en conservant le ratio */
+        }
+    </style>
+</head>
+<body>
+    <img src="images/photo.jpg" alt="Image en plein écran">
+</body>
+</html>
